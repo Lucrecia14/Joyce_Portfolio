@@ -1,0 +1,152 @@
+
+
+body{
+    overflow: hidden;
+}
+
+section.container {
+    width: 100%;
+    height: 100vh;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    margin-right: -1em;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.WhoAmI {
+    background-color: #EEEEEE;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: medium;
+    color: #6787B1;
+    margin-right: -1em;
+    padding: 20px;  
+}
+
+#name {
+    color: #64d618;
+    font-weight: bold;
+}
+
+#talent {
+    color: #e42b41;
+    font-weight: bold;
+}
+
+#talent2 {
+    color: #e42b41;
+    font-weight: bold;
+}
+
+#concept {
+    color: #64d618;
+    font-weight: bold;
+}
+
+#heading {
+    color: black;
+    font-weight: bolder;
+}
+
+
+.nav{
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    margin: 1em;
+    float: left;
+    list-style: none;
+    border-radius: 50px;
+    width: 10%;
+    height: 5vh;
+    font-size: 0.4cm;
+    background-color: #4c6ca0;
+    text-align: center;
+    text-shadow: burlywood;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: beige;  
+}
+
+.nav li a:hover{
+    color: darkblue;
+}
+
+
+
+.profile {
+    background-color: #3D4F5D;
+    width: 25%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.profilePICS {
+    width: 50%;
+    height: 30vh;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    background-color: white;
+    position: absolute;
+    margin-top: 3em;
+    margin-left: 4em;   
+}
+ 
+.PICS img{
+    width: 185px;
+    padding: 5px;    
+}
+
+
+.devjay h3{
+    font-family: 'Corinthia', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    margin: 250px;
+    margin-left: 3em;
+}
+
+.devjay{
+    white-space: nowrap;
+}
+
+.expertise ul{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.5em;
+    color: #fff;
+    margin: -15em;
+    margin-left: -5em;
+    padding: -25em;
+}
+
+    .contact p{
+        margin: 300px;
+        font-family: 'Fuzzy Bubbles', cursive;
+        font-size: 0.5em;
+        color: #f4f4f4;
+        text-align: center;
+        margin-left: -3em;
+    }
+
+    #social-handle {
+        display: flex;
+        flex-flow: row-reverse;
+        margin-left: -11em;
+        margin-top: -400px;
+        justify-content: center;
+        padding: -50em;       
+    }
+
+    .social_media{
+        padding: 170px 10px;
+        overflow: hidden;
+    }
+
+
+
